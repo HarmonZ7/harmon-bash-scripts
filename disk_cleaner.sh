@@ -1,4 +1,15 @@
 #!/bin/bash
+# Name: disk_cleaner.sh
+#
+# Description: Deletes contents of hard-coded directories and compares disk space before and after cleaning.
+#
+# Usage: ./disk_cleaner.sh
+#
+# Requirements: Manual input in code of directories to delete.
+#
+# Exit Codes:
+#   - 0: success
+
 
 #safety code to catch common errors
 set -euo pipefail

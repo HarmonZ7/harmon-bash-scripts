@@ -1,4 +1,19 @@
 #!/bin/bash
+# Name: delete_user.sh
+#
+# Description: Prompts user through deleting a user
+#
+# Usage: sudo delete_user.sh <username>
+#                            [required] 
+#
+# Requirements: Requires sudo access
+#
+# Exit Codes:
+#   - 0: success
+#   - 1: Fail if provided username is less than 1 character
+#   - 2: Fail if script not ran as sudo
+#   - 3: Fail if provided username doesn't exist
+#   - 4: Fail if user still exists after deletion
 
 set -euo pipefail
 

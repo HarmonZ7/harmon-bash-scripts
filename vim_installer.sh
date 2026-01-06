@@ -1,4 +1,15 @@
 #!/bin/bash
+# Name: vim_installer.sh
+#
+# Description: Installs vim, if not installed already
+
+# Usage: ./vim_installer.sh
+#
+# Requirements: None
+#
+# Exit Codes:
+#   - 0: success
+#   - 1: Fail if Vim is already installed.
 
 #safety code to fail script if common errors occur
 set -euo pipefail

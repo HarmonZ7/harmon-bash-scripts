@@ -1,5 +1,20 @@
 #!/bin/bash
-#usage: ./create_user.sh username password
+# Name: create_user.sh
+#
+# Description: Prompts user through creating a new user, with a username and password, adding them to 'dev_group', and requiring a password change on first login.
+#
+# Usage: sudo create_user.sh <username> <password>
+#                            [required] [will be prompted if not provided]
+#
+# Requirements: Requires sudo access
+#
+# Exit Codes:
+#   - 0: success
+#   - 1: Fail if no username provided as argument
+#   - 2: Fail if script not ran as sudo
+#   - 3: Fail if provided username already exists
+#   - 4: Fail if prompted password does not pass test code
+#   - 5: Fail if username is less than 1 character
 
 #safety code to help catch errors
 set -euo pipefail

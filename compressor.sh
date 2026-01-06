@@ -1,4 +1,14 @@
 #!/bin/bash
+# Name: compressor.sh
+#
+# Description: Compresses /etc directory in gzip and bzip and compares the size of the compressed files in Bytes.
+#
+# Usage: ./compressor.sh
+#
+# Requirements: Requires sudo access.
+#
+# Exit Codes:
+#   - 0: success
 
 #safety code for catching common errors
 set -euo pipefail

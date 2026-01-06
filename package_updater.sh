@@ -1,6 +1,16 @@
 #!/bin/bash
+# Name: package_updater.sh
+#
+# Description: Linux and Mac versions. Updates homebrew and/or installed packages and saves results to a log file.
+#
+# Usage: ./package_updater.sh
+#
+# Requirements: None
+#
+# Exit Codes:
+#   - 0: success
+#   - 1: Fail if homebrew/package manager is not installed.
 
-#mac version for presentation
 
 #safety code to catch errors
 set -euo pipefail
@@ -19,7 +29,7 @@ fi
 
 
 
-#linux adaptation
+#linux version
 
 #if command -v apt >/dev/null 2>&1
 #then
