@@ -3,7 +3,7 @@
 #
 # Description: Prompts user through deleting a user
 #
-# Usage: sudo delete_user.sh <username>
+# Usage: sudo ./delete_user.sh <username>
 #                            [required] 
 #
 # Requirements: Requires sudo access

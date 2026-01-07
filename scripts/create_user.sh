@@ -3,7 +3,7 @@
 #
 # Description: Prompts user through creating a new user, with a username and password, adding them to 'dev_group', and requiring a password change on first login.
 #
-# Usage: sudo create_user.sh <username> <password>
+# Usage: sudo ./create_user.sh <username> <password>
 #                            [required] [will be prompted if not provided]
 #
 # Requirements: Requires sudo access
